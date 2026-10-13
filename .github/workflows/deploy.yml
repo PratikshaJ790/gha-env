@@ -13,7 +13,7 @@ jobs:
       MONGODB_DB_NAME: gha-env
       MONGODB_USERNAME: pratikshasarwade_db_user
       MONGODB_PASSWORD: yByh8yNzmuBl0avp
-      PORT: 8080
+      PORT: 3000
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
