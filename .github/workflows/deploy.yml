@@ -4,15 +4,14 @@ on:
     branches:
       - main
       - dev
-env:
-  MONGODB_CLUSTER_ADDRESS: cluster0.gnfy0al.mongodb.net
+env:  
   MONGODB_DB_NAME: gha-env
 jobs:
   test:
     env:
-      MONGODB_DB_NAME: gha-env
-      MONGODB_USERNAME: pratikshasarwade_db_user
-      MONGODB_PASSWORD: yByh8yNzmuBl0avp
+      MONGODB_CLUSTER_ADDRESS: cluster0.gnfy0al.mongodb.net
+      MONGODB_USERNAME: Pratiksha
+      MONGODB_PASSWORD: g3nJMu6E7ukASvuq
       PORT: 3000
     runs-on: ubuntu-latest
     steps:
